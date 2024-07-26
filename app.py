@@ -163,9 +163,9 @@ def remove_saved_video(video):
     st.toast(f"Video '{video['title']}' has been removed from saved videos.")
 
 async def main():
-    st.set_page_config(page_title="Audio Explorer", layout="wide")
+    st.set_page_config(page_title="Video Explorer", layout="wide")
     
-    st.title("Audio Explorer")
+    st.title("Video Explorer")
 
     # Load saved videos
     st.session_state.saved_videos = load_saved_videos()
