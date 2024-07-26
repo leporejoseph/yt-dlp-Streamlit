@@ -1,0 +1,5 @@
+streamlit
+yt-dlp
+streamlit-player
+aiohttp
+Pillow
